@@ -1,0 +1,15 @@
+'Sarkosh.CdCollection:Plugin':
+  superTypes: ['TYPO3.Neos:Plugin']
+  ui:
+    label: 'CD Collection'
+    group: 'plugins'
+  options:
+    pluginViews:
+      'CollectionShow':
+        label: 'Show Collection'
+        controllerActions:
+          'Sarkosh\CdCollection\Controller\CollectionController': ['show']
+      'CollectionOverview':
+        label: 'Collection Overview'
+        controllerActions:
+          'Sarkosh\CdCollection\Controller\CollectionController': ['overview']

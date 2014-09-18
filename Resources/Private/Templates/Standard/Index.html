@@ -1,0 +1,13 @@
+<f:layout name="Default" />
+
+<f:section name="Title">CD Collection</f:section>
+
+<f:section name="Content">
+	<ul>
+		
+		<f:for each="{albums}" as="album">
+			<li>{album.title}</li>
+		</f:for>
+		
+	</ul>
+</f:section>

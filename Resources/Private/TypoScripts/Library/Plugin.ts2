@@ -1,0 +1,6 @@
+prototype(Sarkosh.CdCollection:Plugin) < prototype(TYPO3.Neos:Plugin)
+prototype(Sarkosh.CdCollection:Plugin) {
+     package = 'Sarkosh.CdCollection'
+     controller = 'Collection'
+     action = 'overview'
+}
